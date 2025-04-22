@@ -1,3 +1,5 @@
+// ignore_for_file: sized_box_for_whitespace
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../user_provider.dart';
@@ -42,7 +44,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 height: 300,
               ),
             ),
-            SizedBox(height: 25),
+            const SizedBox(height: 25),
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 32, vertical: 16),
               child: Form(
@@ -259,7 +261,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                       child: TextButton(
                         onPressed: () => Navigator.pushNamed(context, '/login'),
                         child: RichText(
-                          text: TextSpan(
+                          text: const TextSpan(
                             text: 'ALREADY HAVE AN ACCOUNT?   ',
                             style: TextStyle(
                               fontFamily: 'Lexend Deca',

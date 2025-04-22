@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
@@ -168,10 +170,10 @@ class _HomeScreenState extends State<HomeScreen> {
                               child: Center(
                                 child: Text(
                                   tasks.length.toString(),
-                                  style: TextStyle(
+                                  style: const TextStyle(
                                     fontFamily: 'Lexend Deca',
                                     color:
-                                        const Color.fromARGB(255, 29, 116, 74),
+                                        Color.fromARGB(255, 29, 116, 74),
                                     fontSize: 14,
                                     fontWeight: FontWeight.bold,
                                   ),

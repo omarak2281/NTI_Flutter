@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 import 'task_model.dart';
 
@@ -53,7 +55,7 @@ class _AddTaskScreenState extends State<AddTaskScreen> {
         centerTitle: true,
         title: Text(
           widget.task == null ? 'Add Task' : 'Edit Task',
-          style: TextStyle(fontFamily: 'Lexend Deca'),
+          style: const TextStyle(fontFamily: 'Lexend Deca'),
         ),
         leading: IconButton(
           icon: const Icon(

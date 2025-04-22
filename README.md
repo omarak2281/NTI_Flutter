@@ -1,16 +1,19 @@
-# to_do_app
+# Flutter Course App Submission
 
-A new Flutter project.
+## Overview
+This is my Flutter app for the course, implementing a to-do list with features like task addition, editing, and profile management.
 
-## Getting Started
+## Setup Instructions
+1. Clone the repo: `git clone <repo-url>`
+2. Navigate to the project: `cd <project-name>`
+3. Install dependencies: `flutter pub get`
+4. Run the app: `flutter run`
 
-This project is a starting point for a Flutter application.
+## Features
+- Login/Register screens with validation
+- Task management with Lexend Deca font
+- Profile screen with avatar and settings
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Notes
+- Uses Montserrat/Lexend Deca fonts (included in `pubspec.yaml`).
+- Assets are in the `assets/` folder.
